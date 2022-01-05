@@ -1,0 +1,261 @@
+/* Custom color theme properties */
+:root {
+  --f7-theme-color: #F33030;
+  --f7-theme-color-rgb: 0, 182, 255;
+  --f7-theme-color-shade: #FA4E4E;
+  --f7-theme-color-tint: #FA4E4E;
+}
+
+/* Your app custom styles here */
+
+.nav-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 23.3%;
+	
+}
+
+.page-content {
+  background-color: #141515;
+}
+
+.pkg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.block-title {
+  color: #b0b3b8;
+}
+
+
+.searchbar-backdrop{
+  color: #141515;
+}
+
+.pkg-card img {
+  width: 300px;
+	height: 170px;
+  border-radius: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.block-strong {
+  background-color: #242526;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.list ul {
+  background-color: #141515;
+}
+
+.list li {
+  background-color: #242526;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-radius: 15px;
+}
+
+.uwu li {
+  background-color: #242526;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-radius: 0px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 23%;
+}
+
+.get-btn {
+  width: 55px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #3a3b3c;
+  float: right;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+	margin-top: 7px;
+}
+
+.ver {
+  color: #b0b3b8;
+}
+ 
+.slider {
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+}
+
+.card-expandable {
+	width: 350px;
+	height: 175px;
+	margin: 10px;
+	text-align: left
+	}
+/* tab bar code, Coded By Aydnan */ 
+.tab-bar {
+    position: fixed;
+    bottom: 0px;
+    left: 15%;
+    z-index: 99;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    margin-bottom: 10px;
+    width: 60%;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+
+.tab-bar {
+  margin: 10px;
+  border-radius: 15px;
+  background-color: #242526;
+  padding: 15px;
+}
+/* ends here */
+
+ .img-card {
+  flex-shrink: 0;
+  width: 180px;
+  height: 220px;
+  border-radius: 25px;
+  background-color: #242526;
+  margin: 10px;
+  display: block;
+  padding-bottom: 15px;
+}
+
+.img-card-banner {
+  width: 100%;
+  height: 110px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.img-card-btn {
+  width: 80%;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  display: block;
+  background-color: #3a3b3c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+
+.img-banner-li {
+  background-color: rgb(40, 41, 61, 1);
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.innertxt {
+  position: absolute;
+  bottom: 11px;
+  left: 10%;
+  opacity: 70%;
+  color: #fff;
+  font-size: 15px;
+}
+
+.app-banner {
+  width: 100%;
+  height: 12%;
+  border-radius: 0px 0px 20px 20px;
+  opacity: 30%;
+}
+
+.pkg-banner img {
+   width: 628px;
+	height: 175px;
+   border-radius: 0px 0px 20px 20px;
+   margin-bottom: 60%;
+   margin-right: 0px;
+	opacity: 55%;
+}
+
+.pkg-banner b {
+  position: absolute;
+  left: 30%;
+  opacity: 100%;
+  bottom: 73%;
+  color: #fff;
+  font-size: 35px;
+}
+
+.app-top img {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  margin-top: 6%;
+}
+
+.app-info b {
+  color: #fff;
+  font-size: 15px;
+  display: inline-block;
+  margin-left: 47px;
+}
+
+.uwu-button {
+  text-align: center;
+  padding: 5px;
+}
+
+hr {
+  border-top: 1px #fff;
+}
+
+.description {
+  margin-left: 34px;
+} 
+
+.debrib {
+  margin-left: 70px;
+}
+
+.inliner1 {
+  display: flex;
+}
+
+.inliner1 b {
+  margin-left: 70px;
+  color: #F33030;
+  opacity: 100%;
+  font-size: 17px;
+}
+
+.inliner2 {
+  display: flex;
+}
+
+.inliner2 b{
+  margin-left: 80px;
+  color: #545353;
+  font-size: 16px;
+}

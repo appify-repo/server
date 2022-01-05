@@ -1,0 +1,31 @@
+/*new slide*/
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+}
+
+.small-card {
+  flex-shrink: 0;
+  width: 136px;
+  height: 177px;
+  border-radius: 15px;
+  background-color: auto;
+  margin: 10px;
+  display: block;
+  text-align: center;
+}
+
+.small-card img {
+  width: 80px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.small-card h2 {
+  color: white;
+}
+
+/*new slide end*/
